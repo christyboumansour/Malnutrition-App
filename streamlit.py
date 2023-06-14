@@ -7,9 +7,9 @@ import numpy as np
 import plotly.graph_objects as go
 import plotly.subplots as sp
 
-df=pd.read_csv('C:\\Users\\chris\\OneDrive\\Desktop\\df.csv')
-df1=pd.read_csv('C:\\Users\\chris\\Downloads\\global-hunger-index.csv')
-df2=pd.read_csv('C:\\Users\\chris\\AppData\\Local\\Temp\\Temp1_archive (13).zip\\cause_of_deaths.csv')
+df=pd.read_csv('df.csv')
+df1=pd.read_csv('global-hunger-index.csv')
+df2=pd.read_csv('cause_of_deaths.csv')
 color_palette = ['#FBE9EB', '#F9C9D1', '#F79AB5', '#F56B99', '#F33D7E']
 # Assuming your DataFrame is named 'df'
 df['Average'] = df.Overweight + df.Underweight + df.Wasting + df.Stunting / 4
