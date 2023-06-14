@@ -9,7 +9,7 @@ import plotly.subplots as sp
 
 df=pd.read_csv('df.csv')
 df1=pd.read_csv('global-hunger-index.csv')
-df2=pd.read_csv('cause_of_deaths.csv')
+df2=pd.read_csv('causes of death.csv')
 color_palette = ['#FBE9EB', '#F9C9D1', '#F79AB5', '#F56B99', '#F33D7E']
 # Assuming your DataFrame is named 'df'
 df['Average'] = df.Overweight + df.Underweight + df.Wasting + df.Stunting / 4
